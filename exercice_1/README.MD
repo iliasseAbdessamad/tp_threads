@@ -33,10 +33,10 @@ unique</b></p>
 <p><b>6 - Que constatez-vous</b></p>
 <img src="./imgs/7.png">
 <p>On remarque que les Threads sont exécutés en parallèle, et que on n'a pas le contôle sur l'ordre d'éxecution des Thread 
-ainsi que la durée qui sera alouée à chaque fois à un thread pour le traitement par le CPU.
+ainsi que la durée du traitement qui sera alouée à chaque thread.
 <br />
 Le composant du système d'expoitation qui gère ces deux caractéristiques c'est le schudler, mais en java on a la possibilité de 
-gérer l'ordonnencement et la durée qui sera alouée à chaque thread pour qu'il soit traité par le CPU via la méthode setPriority(), ainsi 
-le thread qui a la priorité maximale sera exécuté en premier et aura une durrée de traitement maximale par rapport aux autres threads 
+gérer l'ordonnencement et la durée du traitement d'un thread via la méthode setPriority(), ainsi 
+le thread qui a la priorité maximale sera exécuté en premier et aura une durrée de traitement maximale par rapport aux autres threads de l'application.
 </p>
 
